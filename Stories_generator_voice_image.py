@@ -53,7 +53,7 @@ def app():
             type="default",
             placeholder="Introduce una frase para generar una historia",
         )
-        options = [voces[0].name, voces[1].name, voces[2].name, voces[3].name, voces[4].name, voces[5].name, voces[6].name, voces[7].name, voces[8].name, voces[9].name, voces[10].name]
+        options = [voces[0].name, voces[1].name, voces[2].name, voces[3].name, voces[4].name, voces[5].name, voces[6].name, voces[7].name, voces[8].name]
         voice = st.selectbox("Selecciona una voz", options)
 
         if st.form_submit_button("Enviar"):
